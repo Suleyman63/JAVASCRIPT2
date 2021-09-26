@@ -1,0 +1,10 @@
+{
+    "firstname": "zeynep",
+    "lastname": "kerme",
+    "age":15,
+    "cars":[
+        {"carname":"ford","models":["fiesta","focus","connect"]},
+        {"carname":"bwmw","models":["320","520","x6"]},
+        {"carname":"audi","models":["a6","a3","a4"]}
+    ]
+}

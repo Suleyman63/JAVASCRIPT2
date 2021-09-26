@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <p id="result"></p>
+    </div>
+    <script>
+        // ecmascript ile gelen bir ozellik
+        // hangi kodu calistirmak istiyorsak onu calistirabiliriz
+        
+         const el=(par) => document.querySelector(par);
+
+        function* gen(){
+            yield console.log('sql');
+            yield console.log('java');
+            yield console.log('ecmascript 6');
+            yield console.log('generators code');
+         
+        }
+        let newGen = gen()
+
+        for(let item of gen())
+        el('#result').innerHTML = item+'<br>'
+
+
+
+    </script>
+    
+</body>
+</html>

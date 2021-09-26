@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="min"></h1><br>
+    <h1 id="max"></h1><br>
+    <h1 id="42"></h1><br>
+    <h1 id="index"></h1><br>
+    <h1 id="zahl"></h1>
+
+    <script>
+/******************************** max und min *****************************/
+        let arr =[1,-5,13486,12,42];
+
+        let min = arr[0];
+        let max = arr[0];
+
+        for(let i=0; i<arr.length ; i++){
+            if(max < arr[i])
+               max = arr[i];
+
+            if(min > arr[i])
+               min = arr[i];
+        }
+        document.getElementById("min").innerHTML = "min :" + min;
+        document.getElementById("max").innerHTML = "max :" + max;
+
+
+/*************************** der zahl 42 finden und index *****************************/
+
+        let result42 = arr.find(function(value){
+            return value==42;
+        });
+        document.getElementById("42").innerHTML = 'Array inhalt der zahl :'+ result42;
+
+
+        let resultIndex = arr.findIndex(function(value){
+        return value == 42;
+        });
+        document.getElementById("index").innerHTML ='der zahl 42 index :'+ resultIndex;
+
+/********************************* wie viel 42 ***********************************/
+      
+        let num = 42;
+        let zahl = 0;
+
+        for(let i = 0; i < arr.length; i++) {
+            if(num == arr[i]) {
+                zahl++;
+            }
+        }
+        document.getElementById('zahl').innerHTML = num + " array inhalt " + zahl +" einmal";
+
+
+        // let arr1 = [];
+        // for(let i=0; i<1000; i++){
+        //     let zufall = Math.ceil(Math.random()*100);
+        //     arr.push(zufall);
+        //     console.log(arr1);
+        // }
+        
+
+        function lottoPool(){
+            let lotto = [];
+
+            for(let i =1; i<50; i++){
+                lotto.push(i);
+                
+            }
+            return lotto;
+        };
+        console.log(lottoPool());
+    </script>
+</body>
+</html>

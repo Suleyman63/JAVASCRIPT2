@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+#con3 div{
+    border-radius: 50%;
+    float: left;
+}

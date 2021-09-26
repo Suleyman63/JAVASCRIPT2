@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide{
+            display: none;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h2>GALLERY</h2>
+    <ul>
+        <li><a href="" id="thum1" data-pic="image1" ><img src="" alt=""></a></li>
+        <li><a href="" id="thum2" data-pic="image1" ><img src="" alt=""></a></li>
+        <li><a href="" id="thum3" data-pic="image1" ><img src="" alt=""></a></li>
+    </ul> 
+    
+    <div>
+        <img src="img1.jfif" alt="" class="hide" id="image1">
+        <img src="img2.jfif" alt="" class="hide" id="image2">
+        <img src="img3.jfif" alt="" class="hide" id="image3">
+    </div>
+    <script>
+        let thum1 = document.getElementById('thum1');
+        let thum1 = document.getElementById('thum2');
+        let thum1 = document.getElementById('thum3');
+
+        thum1.addEventListener('click', showImage);
+        thum1.addEventListener('click', showImage);
+        thum1.addEventListener('click', showImage);
+
+
+        function showImage() {
+            let allBigImages = document.querySelectorAll('#image1, #image2, #image3');
+
+            for(x=0; x<allBigImages.length; x++){
+                allBigImages[x].className = 'hide';
+            }
+
+
+
+            let imgID = this.attributes['data-pic'].value;
+            let picture = document.getElementById('imgID');
+            if(picture.className ==='hide'){
+                picture.className='';
+            }else{
+                picture.className='hide';
+            }
+            
+        }
+
+    </script>
+</body>
+</html>

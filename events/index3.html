@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #section1, #section2, #section3{
+        display: none;
+    }
+    h2{
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div id="accordion">
+        <h2>SECTION1</h2>
+        <div id="section1"
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Vitae suscipit provident atque dignissimos excepturi,
+             sapiente repellat voluptate iusto assumenda eos, amet fugit 
+             aliquam laboriosam quo sit quibusdam consectetur, tempora fugiat 
+             ipsa ea nisi doloribus sed beatae. Iste, explicabo odit laboriosam 
+             sit ab ipsam praesentium a similique optio ex, natus expedita.</p>
+        </div>
+    </div>
+    <h2>SECTION2</h2>
+        <div id="section2">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Vitae suscipit provident atque dignissimos excepturi,
+             sapiente repellat voluptate iusto assumenda eos, amet fugit 
+             aliquam laboriosam quo sit quibusdam consectetur, tempora fugiat 
+             ipsa ea nisi doloribus sed beatae. Iste, explicabo odit laboriosam 
+             sit ab ipsam praesentium a similique optio ex, natus expedita.</p>
+        </div>
+    </div>
+
+    <h2>SECTION3</h2>
+        <div id="section3">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Vitae suscipit provident atque dignissimos excepturi,
+             sapiente repellat voluptate iusto assumenda eos, amet fugit 
+             aliquam laboriosam quo sit quibusdam consectetur, tempora fugiat 
+             ipsa ea nisi doloribus sed beatae. Iste, explicabo odit laboriosam 
+             sit ab ipsam praesentium a similique optio ex, natus expedita.</p>
+        
+    </div>
+    <script>
+        let accordion = document.querySelector('#accordion');
+
+        let titles = accordion.getElementsByTagName('h2');
+
+        for (let i=0; i<titles.length; i++){
+            titles[i].addEventListener('click', displayShow);
+
+        }
+
+        function displayShow(){
+            content = this.nextSibling.nextSibling;
+
+            if(content.style.display !='block'){
+                content.style.display = 'block';
+            }else{
+                content.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

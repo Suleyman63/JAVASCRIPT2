@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS02</title>
+</head>
+ 
+<body>
+<input type="text" placeholder="ARANACAK KELİME" id="kelime">
+<input type="button" value="ARAMA YAP" id="ara">
+<div id="dizi-liste"></div>
+ 
+<script>
+var dizi=["Ali","Ahmet","Mehmet","Veysel"];
+var diziListe=document.getElementById("dizi-liste");
+var kelime=document.getElementById("kelime");
+var ara=document.getElementById("ara");
+ 
+ 
+window.onload=function(){
+ 
+diziListe.innerHTML=dizi; 
+}
+ 
+ara.onclick=function(){
+ 
+var konum= dizi.lastIndexOf(kelime.value);
+if(konum>=0)
+{
+alert("aradığınız ifade dizide "+(konum+1)+" sırada bulunmaktadır.");
+}
+else
+{
+alert("aradığınız ifade dizide yoktur.");
+}
+ 
+}
+ 
+ 
+</script>
+</body>
+</html>

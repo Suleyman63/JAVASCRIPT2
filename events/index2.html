@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>EVENT</h1>
+    <h3>toplama</h3>
+    <input id="num1" type="text"><br>+<br>
+    <input id="num2" type="text"><br><br>
+    <p id="sum">sum</p>
+
+
+    <script>
+        let num1 = document.getElementById('num1');
+        let num2 = document.getElementById('num2');
+        let sum = document.getElementById('sum')
+
+        num1.addEventListener('input', topla);
+        num2.addEventListener('input', topla);
+
+        function topla() {
+            let one = parseInt(num1.value);
+            let two = parseInt(num2.value);
+
+            sum.innerHTML = 'toplam :' + (one + two);
+            
+        }
+
+    </script>
+</body>
+</html>

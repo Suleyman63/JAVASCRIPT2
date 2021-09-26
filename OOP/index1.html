@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const el =(par) => document.querySelector(par)
+    </script>
+</head>
+
+<body>
+    <div id="result"></div>
+    <script>
+
+        class person{
+            constructor(p, p2, p3){
+                this.first =p;
+                this.surname=p2;
+                this.age=p3;
+        }
+        get firstname(){
+            return this.firstname;
+        }
+        get surname(){
+            return this.surname;
+        }
+        get age(){
+            return this.age;
+        }
+
+        set first(first){
+            this.first=first;
+        }
+        set surname(surname){
+            this.surname=surname;
+        }
+        set age(age){
+            this.age=age;
+        }
+    }
+
+    let myObj = new person('ayfer', 'yildiz',28);
+    
+    el('#result').innerHTML+=
+    myObj.first +' '+
+    myObj.surname+' '+
+    myObj.age;
+
+
+    myObj.first('fehmi');
+    myObj.surname('almaz');
+    myObj.age(33);
+
+    el('#result').innerHTML+=    
+    myObj.first +' '+
+    myObj.surname+' '+
+    myObj.age;
+
+
+    </script>
+</body>
+</html>

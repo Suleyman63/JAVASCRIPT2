@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let library = [
+            {
+                title : 'ince memed',
+                autor : 'yasar kemal',
+                status : true
+
+            },
+            {
+                title : 'kuyucakli yusuf',
+                autor : 'sabahattin ali',
+                status : false
+
+            },
+            {
+                title : 'insan manzaralari',
+                autor : 'nazim hikmet',
+                status : true
+
+            },
+            {
+                title : 'sultan',
+                autor : 'elif safak',
+                status : false
+
+            },
+        ];
+
+        for(let i=0; i<library.length; i++){
+            let book = library[i].title +' '+library[i].autor
+
+            if(library[i].status){
+                console.log(book +'okundu');
+            }
+            else{
+                console.log(book +'okunmadi');
+            }
+        }
+
+
+    </script>
+</body>
+</html>

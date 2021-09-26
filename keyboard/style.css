@@ -1,0 +1,28 @@
+#wrapper{
+    width:70vw;
+   margin:auto; 
+}
+#container{
+    display:flex;
+    justify-content:space-around;
+}
+
+#container div{
+    width:5vw;
+    height:20vw;
+    font-weight: 800;
+    text-align:center;
+    line-height:3vw;
+}
+
+.passiv{
+    border:5px solid rgba(0,0,0,0.2);
+    background:rgba(0,0,0,0.1);
+}
+
+
+.aktiv{
+    border:5px solid rgba(131, 5, 5, 0.918);
+    background:rgba(255, 196, 0,1);
+    color:white;
+}

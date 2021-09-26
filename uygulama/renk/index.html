@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        p{border: 2px solid #ccc; padding: 25px;}
+
+    </style>
+</head>
+<body>
+    <p id="result" class="Color">renk</p>
+    <button type="button" id="btn" onclick="chn()">degistir</button>
+
+    <script>
+        
+let count=0;
+let btn=document.querySelector('#btn');
+let result=document.querySelector('#result');
+
+function chn(){
+    if(count===0){
+    result.style.backgroundColor='red';
+    }else{
+        result.style.backgroundColor='green';
+        
+    }
+    count++;
+}
+    </script>
+</body>
+</html>

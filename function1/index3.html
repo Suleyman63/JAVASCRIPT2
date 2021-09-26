@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let yaricap = prompt('yaricap giriniz');
+
+        function daireYariCap(yaricap){
+           
+            let cevre = parseInt(2 * Math.PI * yaricap);
+            alert('dairenin cevresi' + cevre);
+
+            let alan = parseInt(2 * Math.PI * yaricap);
+            alert('dairenin alan' + alan);
+        }
+        daireYariCap(yaricap)
+        daireYariCap(20)
+
+    /*******************************************/
+        let vize = prompt('vize notu');
+        let final = prompt('final notu');
+
+        function dersNotu(vize, final){
+            let note = parseInt(vize * 0.4 + final * 0.6);
+            if(note>=50){
+                alert('gectiniz' + note)
+            }
+            else{
+                alert('kaldiniz' + note)
+            }
+        }
+        dersNotu(vize, final)
+
+    </script>
+</body>
+</html>

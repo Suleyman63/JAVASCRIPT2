@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    
+    <script>
+        function goster(r, pi=3.14){
+            return pi*r*r;
+        }
+        document.querySelector('#div1').innerHTML=goster(2)
+
+
+        function topla(num1, num2){
+            return num1+num2;
+        }
+        document.querySelector('#div2').innerHTML=topla(8,12)+'<br>'
+
+
+        function kare(x, y=3){
+            return Math.pow(x,y);
+        }
+        document.querySelector('#div3').innerHTML=kare(4)+'<br>'
+    </script>
+</body>
+</html>
