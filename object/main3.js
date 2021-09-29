@@ -22,3 +22,31 @@ console.log(ali.hasOwnProperty('age'));
 console.log(ali.hasOwnProperty('surname'));
 
 console.log('surname' in ali);
+
+/**************************************************/
+
+let car={
+    name:"nissan",
+    model:"400a",
+    color:"black",
+    start:function(){
+        return this.name+' '+this.model+' '+this.color+' '+'calisti';
+    },
+    drive:function(){
+        return this.name+' '+this.model+' '+this.color+' '+'kullaniliyor';
+    },
+    brake:function(){
+        return this.name+' '+this.model+' '+this.color+' '+'frene basildi';
+    },
+    stop:function(){
+        return this.name+' '+this.model+' '+this.color+' '+'araba durdu';
+    },
+};
+
+
+for(let i in car){
+    document.querySelector('#result').innerHTML=
+    car.start()+'<br>'+
+    car.brake()+'<br>'+
+    car.stop();
+}

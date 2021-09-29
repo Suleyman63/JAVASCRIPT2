@@ -48,22 +48,50 @@ document.write(text)
 
 
 /*************************************************************/
-(function(){
+// (function(){
 
-    function el(cssSelector){
-        return document.querySelector(cssSelector);
-    };
+//     function el(cssSelector){
+//         return document.querySelector(cssSelector);
+//     };
 
-    let arr = [
-        [1,3,5,7,6,8],
-        [9,5,4,12,8,7]
+//     let arr = [
+//         [1,3,5,7,6,8],
+//         [9,5,4,12,8,7]
 
-    ];
-    console.table(arr);
-    console.log(arr);
-    document.write(arr)
-}())
+//     ];
+//     console.table(arr);
+//     console.log(arr);
+//     document.write(arr)
+// }())
 
 /**********************************************************/
 
+let x='javascript, java, react';
+let y='angular, node, vue'
+console.log(x.length);
+console.log(x.lastIndexOf('java'));
+console.log(x.slice(10,20));
+console.log(x.substring(12));
 
+console.log(x.concat(' ',y));
+
+console.log(x.split(',',2));
+
+
+let liste2 = {'name1':'apple', 'name2':'orange', 'name3': 'banane', 'name4':'kiwi', 'name5':'kirsche'};
+
+
+for(let i in liste2){
+    console.log(i+' ->'+liste2[i]);
+}
+
+
+
+let liste3 = ['apple','orange','banane','kiwi','kirsche'];
+
+ liste3.forEach(x => {console.log('->',x);
+        
+}); 
+
+
+/*******************************/

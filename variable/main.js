@@ -65,3 +65,27 @@ console.log(a);
 
 var b;
 console.log(b);
+
+/**********************************************/
+
+
+let name = 'ali';
+let age = 35;
+let job = 'developer'
+let kadin = false
+
+console.log(name +' '+age+' '+job+' '+kadin);
+
+let fullname;
+ad = prompt('adiniz')
+soyad = prompt('soyadiniz')
+fullname = ad +' '+soyad
+alert('hello'+' '+fullname)
+
+let num1, num2, sum;
+
+num1 = prompt('ilk sayi')
+num2 = prompt('ikinci sayi')
+sum = num1+num2
+alert('toplam :' + sum)
+
