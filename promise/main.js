@@ -113,3 +113,42 @@ Promise.race([show1,show2]).then(function succes(par){
 }).catch(function reject(par){
     el('#result').innerHTML =par;
 });
+
+
+/***********************************************************/
+
+const veriGetir = new Promise((resolve, reject) => {
+    const veriGeldiMi =true;
+    if(veriGeldiMi){
+        resolve('basarili')
+    }else{
+        reject('basarisiz')
+    }
+});
+
+veriGetir
+.then((cevap) => console.log('sonuc', cevap))
+.catch((hata) => console.log('sonuc', hata));
+
+
+// /***************** axios ***************/
+ const axios = require("axios");
+
+
+
+// // function ulkeGetir(){
+// //     axios
+// //     .get('https://restcountries.eu/rest/v2/all')
+// //     .then((response) => console.log(response.data[0]))
+// //     .catch((err)=> console.log(err));
+// // }
+
+// // ulkeGetir()
+
+async function ulkeGetir(){
+
+    const ulkeListesi = await axios.get("https://restcountries.eu/rest/v2/all");
+    console.log(ulkeListesi);
+}
+
+ulkeGetir();

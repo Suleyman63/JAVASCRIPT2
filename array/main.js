@@ -94,4 +94,23 @@ let liste3 = ['apple','orange','banane','kiwi','kirsche'];
 }); 
 
 
-/*******************************/
+/******************** find() - some() - every() ***********/
+
+const urunler= [
+  {id :1, name: 'kalem', fiyat: 5},
+  {id :2, name: 'silgi', fiyat: 10},
+  {id :3, name: 'defter', fiyat: 15},
+  {id :4, name: 'kitap', fiyat: 20}
+];
+
+
+// find()
+console.log(urunler.find((urun) => urun.fiyat >5));
+
+
+// some()
+console.log(urunler.some((urun) => urun.fiyat < 15));
+
+
+// every()
+console.log(urunler.every((urun) => urun.fiyat > 2));

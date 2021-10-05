@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <p id="p"></p>
+
+    <div id="div"></div>
+    
+    <script>
+        let btn=document.createElement('button');
+        btn.innerHTML='Click Me'
+        btn.style.background='red'
+        document.body.appendChild(btn)
+        btn.addEventListener('click',el)
+
+function el(){
+        let text = document.createElement('p');
+        text.innerHTML='HOSGELDINIZ'
+        text.style.color = 'blue';
+        document.body.appendChild(text)
+}
+
+const car = {
+    type:"Fiat", 
+    model:"500", 
+    color:"white",
+    ful:function(){
+        return this.type+this.model+this.color
+    }
+}
+    // document.querySelector('p').innerHTML=
+    // car.type+'<br>'+car.model+'<br>'+car.color;
+
+    document.querySelector('p').innerHTML=car.ful();
+
+const ele={
+    name:'ali',
+    lastname:'can',
+    age:21,
+    job:'developer'
+}
+
+let x=`${ele.name} ${ele.lastname} ${ele.age} ${ele.job}`;
+document.querySelector('#div').innerHTML=x;
+
+/*********** fibbo **********************/
+
+// while ile fibo
+let num1 = 0;
+let num2 = 1;
+let num3 = 0;
+
+       
+while (num1<8) {
+                   
+     num1 = num2;
+     num2 = num3;
+     num3 = num1 + num2
+     document.write(num3 + "<br>");
+            
+
+}
+     
+        
+// for ile fibo
+let a = 0;
+let b = 1;
+let fibo = 0;
+
+
+for(let i=0; i<8; i++){
+  a=b;
+  b=fibo;
+  fibo=a+b;
+  document.write(fibo+'<br>')
+
+}
+
+
+
+    </script>
+</body>
+</html>

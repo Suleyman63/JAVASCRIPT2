@@ -77,3 +77,28 @@ function el(par,par2){
     document.querySelector(par).innerHTML=par2;
 
 }
+
+/*************** includes() - toLowerCase() *********/
+
+let isim = 'veli';
+
+console.log(isim.includes('ve'));
+console.log(isim.includes('l'));
+
+
+
+const yeniIsim = isim.toLowerCase();
+console.log(yeniIsim);
+
+const yeniIsim2 = isim.toUpperCase();
+console.log(yeniIsim2);
+
+
+const product = [
+  {id:1, name:'Computer', preise: 500},
+  {id:2, name:'tablet', preise: 1000},
+  {id:3, name:'phone', preise: 1500},
+  {id:4, name:'laptop', preise: 2000},
+];
+
+console.log(product.filter((pro) => pro.name.toLowerCase().includes('computer')));
