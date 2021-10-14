@@ -1,0 +1,36 @@
+.gözler{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.göz{
+    width: 240px;
+    height: 120px;
+    background: skyblue;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border-top: 120px solid black;
+    transition: all .5s ease;
+}
+
+.göz:hover{
+    border-top: 12px solid black;
+}
+
+.bebek{
+    width: 40px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 10px solid rgb(119, 119, 119);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table {
+          border-collapse: collapse;
+          margin: 1em ;
+        }
+        
+        
+        thead tr{position:sticky;top:10px;}
+        
+        
+        th, td {
+          padding: 10px 20px;
+          border: 1px solid #999;
+          font-size: 12px;
+        }
+        th {
+          background-color: #eee;
+        }
+        
+          th:hover, td:hover {
+          background-color: #fe0;
+        }
+        tr:nth-child(even) > td {
+          background-color: #BEF781;
+        }
+        tr:nth-child(odd) > td {
+        background-color: #ffffff; 
+        }
+        
+</style>
+
+
+</head>
+
+<body>
+<div id = "wrapper">
+
+<select id="tableselect">
+    <option value="0">Wählen Sie bitte</option>
+    <option value="AGH2011_BE_EndgErg_ZweitSt_Wahlbez.csv">Wahlen</option>
+    <option value="Besucher pro Jahr_1.csv">Besucher pro Jahr</option>
+    <option value="wahl_2021.csv">Wahl_2021</option>
+    <option value="Besucher pro Tag_1.csv">Besucher pro Tag</option>
+    <option value="Browser Hauptversionen nach Betriebssystem_1.csv">Browser nach OS</option>
+</select>
+
+<div id = "tabelle"></div>
+</div>
+<script type="text/javascript" src="main.js"></script> 	
+</body>
+</html>

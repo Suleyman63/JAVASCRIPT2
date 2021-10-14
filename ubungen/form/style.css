@@ -1,0 +1,48 @@
+body {
+    background-color: cadetblue;
+  }
+  h1 {
+    text-align: center;
+    color: brown;
+  }
+  .container {
+    display: flex;
+    width: 800px;
+    margin: 0px auto;
+  }
+  
+  .sol {
+    width: 400px;
+    margin: 0px auto;
+    color: brown;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .sol input,
+  select {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: "Lucida Sans";
+    font-weight: 600;
+    
+  }
+  button {
+    margin-left: 170px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 18px;
+    font-family: "Lucida Sans";
+    font-weight: 600;
+    background-color: brown;
+    cursor: pointer;
+    color: #fff;
+  }
+  button:hover {
+    background-color: coral;
+  }
+  

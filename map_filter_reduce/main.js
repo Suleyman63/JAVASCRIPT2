@@ -33,6 +33,38 @@ const product2 = [
   );
 
 
+
+  const arr1 = [
+    'a',
+    'aa',
+    'aaa',
+    'aaaa',
+    'aaaaa',
+    'aaaaaa',
+    'aaaaaaa',
+    'aaaaaaaa'
+  ]
+
+
+  let result1=arr1.filter((x) => x.length>3)
+  console.log(result1);
+
+
+  const arr2 = [
+    6,
+    12,
+    16,
+    18
+  ]
+
+
+  const result2 = arr2.filter(kontrol);
+  
+
+  function kontrol(wert){
+    return wert >10
+  }
+  console.log(result2);
   
 /**************** reduce() ******************/
 

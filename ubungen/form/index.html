@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript DOM Manipülasyonu</h1>
+    <div class="container">
+      <div class="sol">
+        <table cellpadding="10px" cellspacing="5px">
+          <tr>
+            <td>Div Genişliği</td>
+            <td><input type="text" id="genislik" /></td>
+          </tr>
+          <tr>
+            <td>Div Yüksekliği</td>
+            <td><input type="text" id="yukseklik" /></td>
+          </tr>
+          <tr>
+            <td>Div Rengi</td>
+            <td>
+              <select name="" id="arka_renk">
+                <option value="red">Kırmızı</option>
+                <option value="blue">Mavi</option>
+                <option value="black">Siyah</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Çerçeve Kalınlığı</td>
+            <td>
+              <select name="" id="kalinlik">
+                <option value="1px">1px</option>
+                <option value="3px">3px</option>
+                <option value="5px">5px</option>
+                <option value="10px">10px</option>
+                <option value="15px">15px</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Çerçeve Tipi</td>
+            <td>
+              <select name="" id="tip">
+                <option value="solid">Düz</option>
+                <option value="dotted">Noktalı</option>
+                <option value="dashed">Kesik Çizgi</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Çerçeve Rengi</td>
+            <td>
+              <select name="" id="cerceve_renk">
+                <option value="red">Kırmızı</option>
+                <option value="blue">Mavi</option>
+                <option value="black">Siyah</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Margin Değeri</td>
+            <td><input type="text" id="dis_bosluk" /></td>
+          </tr>
+          <tr>
+            <td>Padding Değeri</td>
+            <td><input type="text" id="ic_bosluk" /></td>
+          </tr>
+          <tr>
+            <td>Döndürme Değeri</td>
+            <td><input type="text" id="rotate" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button type="submit" id="olustur">Olustur</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="sag">
+        OLUŞTURULAN DİV
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

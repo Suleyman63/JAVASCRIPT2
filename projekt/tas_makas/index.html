@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>SKORBORD</h2>
+        <div class="tabela">
+            <div class="oyuncu_tabela">
+                <span>PLAYER</span>
+                <div style="color: black;" class="kutu oyuncu_skor">0</div>
+            </div>
+            <p style="font-size: 32px;">VS</p>
+            <div class="bilgisayar_tabela">
+                <span>COMPUTER</span>
+                <div style="color: black;" class="kutu bilgisayar_skor">0</div>
+            </div>
+        </div>
+        <div class="secim">
+            <img src="res/tas.png" alt="" id="tas" title="TAS">
+            <img src="res/kagit.png" alt="" id="kagit" title="KAGIT">
+            <img src="res/makas.png" alt="" id="makas" title="MAKAS">
+        </div>
+        <div class="secimler">
+            <div class="oyuncu_secim">
+                <span>PLAYER</span>
+                <img id="oyuncu_secimi" src="res/soru.png" alt="">
+            </div>
+            <div class="bilgisayar_secim">
+                <span>COMPUTER</span>
+                <img id="bilgisayar_secimi" src="res/soru.png" alt="">
+            </div>
+        </div>
+        <div class="mesaj"></div>
+    </div>  
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+{
+    "index": [{
+            "altersgruppe": "0-4",
+            "differenz": "2",
+            "fallzahl": "196",
+            "id": "3",
+            "inzidenz": "103.3"
+        }, {
+            "altersgruppe": " 5-9",
+            "differenz": "6",
+            "fallzahl": "183",
+            "id": "6",
+            "inzidenz": "106.6"
+        }, {
+            "altersgruppe": " 10-14",
+            "differenz": "3",
+            "fallzahl": "235",
+            "id": "9",
+            "inzidenz": "150.2"
+        }, {
+            "altersgruppe": "15-19",
+            "differenz": "0",
+            "fallzahl": "280",
+            "id": "12",
+            "inzidenz": "186.9"
+        }, {
+            "altersgruppe": "20-24",
+            "differenz": "1",
+            "fallzahl": "532",
+            "id": "15",
+            "inzidenz": "260.4"
+        }, {
+            "altersgruppe": "25-29",
+            "differenz": "12",
+            "fallzahl": "806",
+            "id": "18",
+            "inzidenz": "280.7"
+        }, {
+            "altersgruppe": "30-39",
+            "differenz": "14",
+            "fallzahl": "1609",
+            "id": "21",
+            "inzidenz": "247.1"
+        }, {
+            "altersgruppe": "40-49",
+            "differenz": "12",
+            "fallzahl": "1202",
+            "id": "24",
+            "inzidenz": "248.2"
+        }, {
+            "altersgruppe": "50-59",
+            "differenz": "7",
+            "fallzahl": "1233",
+            "id": "27",
+            "inzidenz": "227"
+        }, {
+            "altersgruppe": "60-69",
+            "differenz": "0",
+            "fallzahl": "632",
+            "id": "30",
+            "inzidenz": "158.9"
+        }, {
+            "altersgruppe": "70-79",
+            "differenz": "1",
+            "fallzahl": "499",
+            "id": "33",
+            "inzidenz": "156.8"
+        }, {
+            "altersgruppe": "80-89",
+            "differenz": "1",
+            "fallzahl": "433",
+            "id": "36",
+            "inzidenz": "234.7"
+        }, {
+            "altersgruppe": "90+",
+            "differenz": "0",
+            "fallzahl": "133",
+            "id": "39",
+            "inzidenz": "426.8"
+        }, {
+            "altersgruppe": "unbekannt",
+            "differenz": "0",
+            "fallzahl": "1",
+            "id": "42",
+            "inzidenz": "0"
+        }
+    ],
+    "item": [],
+    "messages": {
+        "messages": [],
+        "success": null
+    },
+    "results": {
+        "count": 15,
+        "items_per_page": null
+    }
+}
