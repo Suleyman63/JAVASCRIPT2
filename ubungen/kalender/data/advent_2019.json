@@ -1,0 +1,869 @@
+[
+	
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 1",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/1.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 1. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/1.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 1. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 2",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/2.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 2. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/2.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 2. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 3",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/3.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 3. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/3.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 3. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 4",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/4.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 4. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/4.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 4. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 5",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/5.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 5. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/5.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 5. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 6",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/6.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 6. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/6.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 6. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 7",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/0.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 7. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/0.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 7. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 8",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/25.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 8. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/25.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 8. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 9",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/8.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 9. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/7.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 9. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 10",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/10.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 10. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/10.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 10. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 11",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/11.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 11. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/11.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 11. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 12",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/12.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 12. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/12.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 12. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 13",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/13.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 1. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/13.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 13. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 14",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/14.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 14. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/14.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 14. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 15",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/15.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 15. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/15.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 15. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 16",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/16.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 16. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/16.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 16. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 17",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/17.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 17. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/17.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 17. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 18",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/18.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 18. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/18.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 18. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 19",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/19.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 19. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/19.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 19. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 20",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/20.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 20. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/20.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 20. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[null],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 21",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/21.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 21. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/21.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 21. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 22",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/22.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 22. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/22.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 22. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	},
+	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 23",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/0.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 23. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/0.mp3",
+				"class":[null],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 23. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[null],
+				"alt" : null
+			}
+		}	
+			
+	},
+ 	{
+		"h2" : {
+				"innerHTML":"Advent 2019 - 24",
+				"attributes":{
+					"src":null,
+					"class":[],
+					"alt" : null
+				}	
+				},
+		"img": {
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/25.jpg",
+				"class":["weiss","gold"],
+				"alt" : "Bild für den 24. Tag"
+			}	
+			},
+		
+		"audio":{
+			"innerHTML":null,
+			"attributes":{
+				"src":"data_2019/25.mp3",
+				"class":[],
+				"alt" :null
+			}	
+			}, 
+		"p"  : {
+			"innerHTML": "Anmerkungen zum 24. Adventstag",
+			"attributes":{
+				"src":null,
+				"class":[],
+				"alt" : null
+			}
+		}	
+			
+	}
+	
+
+]

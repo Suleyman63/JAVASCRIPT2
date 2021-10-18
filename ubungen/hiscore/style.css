@@ -1,0 +1,15 @@
+button{
+    width: 7rem;
+    cursor: pointer;
+}
+
+div{
+    margin: 1rem;
+}
+
+.name{
+    display: inline-block;
+    width: 8rem;
+    color: blue;
+
+}
