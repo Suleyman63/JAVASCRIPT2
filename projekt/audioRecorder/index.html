@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang = "de">
+
+    <head>
+       
+        <title>JavaScript</title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta name = "description" content = "Progammieren mit JS">
+        <meta name = "keywords" content = "">
+        <link href = "style.css" rel = "stylesheet">
+    </head>
+
+    <body>
+      
+        <div id = "main">
+			<h1>Thema der Demo: Audio Recorder</h1>
+			<h3>  stored in  indexedDB</h3>
+
+			<div id ="gui">
+				<div id="visualizer_wrapper">
+					<canvas id = 'canvas' width="700" height="150"></canvas>
+				</div>
+				<div id = "gui-buttons">
+					<div>
+						<button id="btnStart" class = "passiv">START RECORDING</button>
+					</div>
+					<div>
+						<button id="btnStop" class = "passiv">STOP RECORDING</button>
+					</div>
+
+					<p id = "info">&nbsp;</p>
+
+					<div id = "audios">	
+						<div>
+							<button id="play" class = "passiv">PLAY</button>
+						</div>
+						<div>
+							<button id="store" class = "passiv">STORE</button>
+						</div>
+						<div>
+							<button id="play-store" class = "passiv">PLAY FROM STORE</button>
+						</div>
+					</div>
+					</div>
+					
+						
+				</div>
+			</div>
+
+				
+		</div>
+        <script src = "main.js" type = "module"></script>
+    </body>
+
+
+</html>

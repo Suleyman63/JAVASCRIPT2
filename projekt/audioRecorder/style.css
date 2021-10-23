@@ -1,0 +1,104 @@
+*{box-sizing:border-box}
+
+#main {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#gui div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+canvas {
+    border: dashed 1px rgb(219, 215, 215);
+}
+
+#gui button {
+    margin: auto;
+   width: 24rem;
+    cursor: pointer;
+    padding:5px;
+}
+#audios{background-color: rgb(233, 232, 231);}
+.aktiv {
+    border: solid 5px rgb(138, 252, 123);
+}
+
+.passiv {
+    border: solid 5px rgb(214, 212, 212);
+}
+
+#audios {
+    width:fit-content;
+   padding:1rem;
+    margin-bottom: 2rem;
+    border:solid 1px rgb(150,150,150);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.player {
+    border: solid 1px rgb(216, 214, 214);
+    height: 30px;
+    width: 44rem;
+    text-align: right;
+    cursor: pointer;
+    margin-top: 2rem;
+    /* margin-left:auto;
+    margin-right:auto; */
+}
+
+div.player button {
+    /* border:solid 1px rgb(150,150,150); */
+    height: 30px;
+    padding:5px;
+}
+
+div.player label {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    line-height: 30px;
+    cursor: pointer;
+}
+div.player .delete-button{
+    height: 30px;
+    background:rgba(245, 20, 12, 0.3);
+    cursor:pointer;
+}
+div.player .store-button{
+    height: 30px;
+    background:rgba(166, 255, 0, 0.3);
+    cursor:pointer;
+    margin-right:1rem;
+}
+
+
+#store button,#store input{
+    /* height: 30px; */
+    width:21.85rem;
+    padding:5px;
+    margin:0;
+}
+#store input{
+    width:280px;
+}
+.canvasactive {
+    display: inline-block;
+}
+
+.canvaspassiv {
+    display: none;
+}
+
+.savepassiv {
+    display: none;
+}
+
+.saveaktiv {
+    display: block;
+}

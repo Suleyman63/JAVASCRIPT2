@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="img-container"></div>
+    <script>
+ 
+async function loadJson(url) {
+  let data = await fetch('data.json')
+    .then(response => {
+      if (response.status == 200) {
+        return response.json();       
+      } else {
+        throw new Error(response.status);
+      }
+    });
+    
+}
+
+loadJson()
+
+
+
+var data = {
+  "images": [
+      {"bannerImg1": "../images/child.jpeg"},
+      {"bannerImg1" : "../images/child2.jpeg"},
+      {"bannerImg1": "../images/child3.jpeg"},
+      {"bannerImg1": "../images/foto.jpeg"},
+      {"bannerImg1": "../images/foto1.jpeg"},
+      {"bannerImg1": "../images/img1.jpeg"},
+      {"bannerImg1": "../images/img2.jpeg"},
+      {"bannerImg1": "../images/img3.jpeg"},
+    ]
+};
+
+data.images.forEach((obj)=> {
+  let img = new Image();
+  img.src = obj.bannerImg1;
+  img.setAttribute("class", "banner-img");
+  img.setAttribute("alt", "effy");
+  document.getElementById("img-container").appendChild(img);
+});
+  
+
+    </script>
+</body>
+</html>

@@ -8,15 +8,16 @@
 </head>
 <body>
     <script>
-        var tablo = document.createElement("table");
+      
+        let tablo = document.createElement("table");
         tablo.border = "1";
         tablo.cellPadding = "5"
       
-        for (var i = 1; i < 10; i++) {
-          var satir = document.createElement("tr");
+        for (let i = 1; i < 10; i++) {
+          let satir = document.createElement("tr");
           
-          for (var j = 1; j < 10; j++) {
-            var sutun = document.createElement("td");
+          for (let j = 1; j < 10; j++) {
+            let sutun = document.createElement("td");
             sutun.innerHTML = i + "*" + j + " = " + i * j;
             satir.appendChild(sutun);
           }

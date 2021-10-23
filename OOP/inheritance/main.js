@@ -35,7 +35,7 @@ console.log(klonSamler);
 }());
 
 
-/*****************************************************/
+/******************************************************************/
 function Sorular(soru,secim,cevap){
     this.soru=soru
     this.secim=secim
