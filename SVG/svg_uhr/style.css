@@ -1,0 +1,66 @@
+html{
+	font-family: sans-serif;
+}
+
+#uhr {		
+	stroke:rgba(250,3,3,0.438);
+	fill: rgba(221,173,16,0.4);
+	stroke-width: 1px;
+}
+
+#ticks {
+	stroke:black;
+	stroke-width: 1px;	
+}
+
+
+#ziffern{
+	font-size : 6px;
+	stroke:none;	
+	fill:white;	
+	text-anchor:middle;	
+	}
+
+
+#stundenzeiger{
+stroke-width:2px;
+stroke: white;	
+	
+}
+
+#minutenzeiger{
+stroke-width:1px;
+stroke: black;	
+	
+}
+
+#sekundenzeiger{
+stroke-width:0.2px;
+stroke: red;	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+#svg{
+  border: solid 1px black;
+  width: 800px;
+  height: 800px;
+}
+
+#rects rect{
+    stroke-width: 5;
+    stroke: black;
+}
+
+#rects rect:hover{
+    fill: gold;
+}
+
+#r1{
+    width: 150px;
+    height: 150px;
+    fill: green;
+}
+#r2{
+    width: 150px;
+    height: 150px;
+    fill: red;
+}
+#r3{
+    width: 150px;
+    height: 150px;
+    fill: yellow;
+
+}
+#r4{
+    width: 150px;
+    height: 150px;
+    fill: blue;
+}
+
+
+#c1{
+    fill: gold;
+    stroke-width: 5;
+    stroke: black;
+}

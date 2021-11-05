@@ -1,9 +1,12 @@
+
+// function declaration
 function square(num){
     return (num*num);
 }
 console.log(square(8));
 
 
+// function expression
 const dev = function(a){
     return (a+a)
 
@@ -11,8 +14,11 @@ const dev = function(a){
 console.log(dev(9));
 
 
+// arrow function
+const myArr = ['kemal', 7, () => {
+    console.log('array element');
+}];
 
-const myArr = ['kemal', 7, function() {console.log('array element');}];
 
 myArr[2]();
 
@@ -21,6 +27,7 @@ const myObj = {
     age:9,
     func:function() {console.log('object element');}
 };
+
 
 myObj.func();
 console.log(20 + (function(){

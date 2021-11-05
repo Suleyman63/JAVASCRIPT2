@@ -15,22 +15,6 @@
 <body>
     <div id="img-container"></div>
     <script>
- 
-async function loadJson(url) {
-  let data = await fetch('data.json')
-    .then(response => {
-      if (response.status == 200) {
-        return response.json();       
-      } else {
-        throw new Error(response.status);
-      }
-    });
-    
-}
-
-loadJson()
-
-
 
 var data = {
   "images": [

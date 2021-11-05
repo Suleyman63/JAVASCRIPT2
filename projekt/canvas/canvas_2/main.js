@@ -80,7 +80,7 @@
 
     function klonFabrik(){
         let klon;
-        for(let i=0; i<500; i++){
+        for(let i=0; i<100; i++){
             klon = Object.create(proto);
             klon.init();
         }

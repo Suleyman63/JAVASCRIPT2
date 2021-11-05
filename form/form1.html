@@ -35,10 +35,11 @@
         // }
 
 
-            function validateForm(){
-            let result;
-            result = document.querySelector('#result')
+        function validateForm(){
+            
+            let result = document.querySelector('#result')
             let valueForm=document.getElementById('data1').value;
+            
            if(valueForm==''){
             result.innerHTML='kullanici adi bos olamaz';
             return false

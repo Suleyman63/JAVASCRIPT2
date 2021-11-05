@@ -40,3 +40,63 @@ console.log(deepCopy2.sort((a,b)=>b.name.localeCompare(a.name)));
 
 let deepCopy3=JSON.parse(JSON.stringify(arr3))
 console.log(deepCopy3.sort((a,b)=>a.surname.localeCompare(b.surname)));
+
+
+// spread
+
+const person = {
+    name:'alex',
+    surname:'müller',
+    age:25,
+    fullname:function(){
+        return this.name +' '+ this.surname
+    }
+}
+
+const person2 ={...person}
+console.log(person2);
+
+
+
+const obj1 ={
+    name:'andreas',
+    age:24
+}
+
+const obj2 ={
+    job:'student',
+    gender:'female'
+}
+
+const yeni ={...obj1, surname:'müller', ...obj2}
+console.log(yeni);
+
+
+// rest
+const person3 = {
+    name:'alex',
+    surname:'müller',
+    age:25,
+    fullname:function(){
+        return this.name +' '+ this.surname
+    }
+}
+
+const {name, ...rest} = person3;
+console.log(name);
+console.log(rest);
+
+
+// object values
+const person4 = {
+    name:'alex',
+    surname:'müller',
+    age:25,
+    fullname:function(){
+        return this.name +' '+ this.surname
+    }
+}
+
+console.log(Object.keys(person4));
+console.log(Object.values(person4));
+console.log(Object.entries(person4));

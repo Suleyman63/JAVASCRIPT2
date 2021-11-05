@@ -23,12 +23,11 @@
 
     <script>
 
-            function validateForm(){
-            let resultTrue, resultFalse, message, valueForm;
-
-            resultFalse = document.querySelector('#resultFalse')
-            resultTrue = document.querySelector('#resultTrue')
-            valueForm=document.querySelector('#number');
+    function validateForm(){
+           
+        let resultFalse = document.querySelector('#resultFalse')
+        let resultTrue = document.querySelector('#resultTrue')
+        let valueForm=document.querySelector('#number');
 
            if(valueForm.checkValidity()==false){
                resultTrue.style.display="none"
@@ -40,7 +39,7 @@
                resultTrue.innerHTML='no problem'
            }
 
-        }
+    }
     </script>
     
 </body>

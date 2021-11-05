@@ -134,31 +134,3 @@ veriGetir
 .then((cevap) => console.log('sonuc', cevap))
 .catch((hata) => console.log('sonuc', hata));
 
-
-// /***************** promise ve async ***************/
- 
- const axios = require("axios");
-
-
-function ulkeGetir(){
-
-    
-    axios
-    .get('https://restcountries.eu/rest/v2/all')
-    .then((response) => console.log(response.data[0]))
-    .catch((err)=> console.log(err));
-}
-
-ulkeGetir()
-
-
-
-async function ulkeGet(){
-
-    const ulkeListesi = await axios.get("https://restcountries.eu/rest/v2/all");
-    console.log(ulkeListesi);
-   
-    
-}
-
-ulkeGet();

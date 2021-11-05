@@ -4,11 +4,11 @@
     }
 
 function loadHTML(){
-    fetch('https://jsonplaceholder.typicode.com/photos')
+  fetch('https://jsonplaceholder.typicode.com/photos')
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        el('#ausgabe1').innerHTML=data
+       
     })
 }
 
