@@ -118,6 +118,6 @@ veri.concat(list).forEach((element) => {
     degisim.innerHTML += 
     `<div class="alert alert-danger role="alert>${element}</div>`
     
-})
+    })
 
 })

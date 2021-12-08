@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body onload="message()">
+    <h1 id="dom">EVENTS</h1>
+    <button id="btn">TIKLA</button>
+    <button id="btn2">TOPLA</button>
+    <div id="col"></div><br>
+
+    <div>
+        <input type="text" id="key" 
+        onfocus="Focus()" 
+        onblur="Blur()"
+        onkeydown="Keydown()"
+        onkeyup="Keyup()"
+        onselect="select()">
+    </div>
+
+    <div>
+        <h1>EVENT</h1>
+        <h3>toplama</h3>
+        <input id="num1" type="text"><br>+<br>
+        <input id="num2" type="text"><br><br>
+        <p id="sum">sum</p>
+    </div>
+
+    <div id="rectangle"><div id="square"></div></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
